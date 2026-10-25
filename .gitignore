@@ -1,0 +1,14 @@
+# Dependencias y artefactos generados
+node_modules/
+app/dist/
+app/test-results/
+app/playwright-report/
+app/node_modules/.vite/
+*.tsbuildinfo
+
+# Capturas originales de referencia (no se versionan: material del usuario)
+/Banco Plata_*.jpg
+/*.png
+
+# Archivos ajenos al proyecto
+/Estructura landing CargoNet .docx.txt

@@ -1,0 +1,64 @@
+/* Tokens de Banco Plata medidos sobre las capturas (1176×2556 @3x → 392 pt de ancho). */
+:root {
+  --c-bg: #f2f2f5;
+  --c-surface: #ffffff;
+  --c-fill: #f2f2f5;           /* filas internas (Payment dates, inputs) */
+  --c-fill-2: #e9e9ee;
+  --c-text: #111114;
+  --c-text-2: #6e6e76;
+  --c-text-3: #a3a3ab;
+  --c-separator: rgba(17, 17, 20, 0.08);
+  --c-orange: #ff5a0a;         /* CTA principal */
+  --c-orange-2: #ff7a1a;
+  --c-orange-press: #e64d00;
+  --c-indigo: #3420ff;         /* enlaces "Show", "Withdraw", "All $" */
+  --c-green: #1fb25a;
+  --c-green-bg: #e6f7ec;
+  --c-red: #ef2b2b;
+  --c-badge: #ee1d23;
+  --c-toggle: #3d2bff;         /* interruptores activos (Online purchases) */
+  --c-scrim: rgba(28, 28, 34, 0.38);
+  --c-dark-btn: #121214;       /* Join Plata+ */
+  --c-sheet: #ffffff;
+
+  --r-card: 22px;
+  --r-tile: 22px;
+  --r-row: 16px;
+  --r-btn: 999px;
+  --r-sheet: 34px;
+
+  --sp-side: 20px;
+  --status-h: 54px;
+  --header-h: 56px;
+  --tabbar-h: 92px;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.03);
+  --shadow-float: 0 10px 30px rgba(20, 20, 40, 0.12), 0 1px 3px rgba(20, 20, 40, 0.08);
+  --glass: rgba(255, 255, 255, 0.55);
+  --glass-border: rgba(255, 255, 255, 0.85);
+  --home-bg: linear-gradient(180deg, #eeeef1 0%, #d9dade 22%, #e9e9ed 40%, #f2f2f5 60%);
+}
+
+:root[data-theme='dark'] {
+  --c-bg: #000000;
+  --c-surface: #1b1b1f;
+  --c-fill: #26262b;
+  --c-fill-2: #303036;
+  --c-text: #f5f5f7;
+  --c-text-2: #9a9aa3;
+  --c-text-3: #66666e;
+  --c-separator: rgba(255, 255, 255, 0.08);
+  --c-indigo: #7b6dff;
+  --c-scrim: rgba(0, 0, 0, 0.55);
+  --c-dark-btn: #2a2a30;
+  --c-sheet: #1b1b1f;
+  --glass: rgba(40, 40, 46, 0.6);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --home-bg: linear-gradient(180deg, #1a1a1d 0%, #0b0b0d 40%, #000 70%);
+  --shadow-float: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
